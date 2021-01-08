@@ -5,6 +5,8 @@ import image3 from "../../images/weather-dashboard.png"
 import image4 from "../../images/city-sidekick.png"
 import image5 from "../../images/burger-eater.png"
 import image6 from "../../images/quikcode.png"
+import image7 from "../../images/quikcodepro.png"
+import "./portfolio.css"
 
 function Portfolio() {
 
@@ -22,14 +24,14 @@ function Portfolio() {
                 <div className="row">
                     <div className="d-flex justify-content-center col-sm-12 col-md-12 col-lg-6">
                         <div className="card">
-                            <a href="https://bensgar92.github.io/Password-Generator/" target="_blank"><img className="card-img-top" src={image1} alt="Card image cap"/></a>
-                            <div className="card-body text-primary bg-dark rgba-black-light p-2">Password Generator</div>
+                            <a href="https://quikcodepro.herokuapp.com/" target="_blank"><img className="card-img-top" src={image7} alt="Card image cap"/></a>
+                            <div className="card-body textGold bg-dark rgba-black-light p-2">QuikCodePro</div>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center col-sm-12 col-md-12 col-lg-6">
                         <div className="card">
-                        <a href="https://bensgar92.github.io/Workday-Planner/" target="_blank"><img className="card-img-top" src={image2} alt="Card image cap"/></a>
-                        <div className="card-body text-primary bg-dark rgba-black-light p-2">Workday Planner</div>
+                            <a href="https://group-1-repo.herokuapp.com/" target="_blank"><img className="card-img-top" src={image6} alt="Card image cap"/></a>
+                            <div className="card-body textGold bg-dark rgba-black-light p-2">QuikCode</div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +51,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                <div className="row mb-5">
+                <div className="row">
                     <div className="d-flex justify-content-center col-sm-12 col-md-12 col-lg-6">
                         <div className="card">
                             <a href="https://stark-island-93829.herokuapp.com/" target="_blank"><img className="card-img-top" src={image5} alt="Card image cap"/></a>
@@ -59,10 +61,20 @@ function Portfolio() {
                     </div>
                     <div className="d-flex justify-content-center col-sm-12 col-md-12 col-lg-6">
                         <div className="card">
-                            <a href="https://group-1-repo.herokuapp.com/" target="_blank"><img className="card-img-top" src={image6} alt="Card image cap"/></a>
-                            <div className="card-body text-primary bg-dark rgba-black-light p-2">QuikCode - Group Project</div>
+                        <a href="https://bensgar92.github.io/Workday-Planner/" target="_blank"><img className="card-img-top" src={image2} alt="Card image cap"/></a>
+                        <div className="card-body text-primary bg-dark rgba-black-light p-2">Workday Planner</div>
                         </div>
                     </div>
+                </div>
+
+                <div className="row mb-5">
+                    <div className="d-flex justify-content-center col-sm-12 col-md-12 col-lg-6">
+                        <div className="card">
+                            <a href="https://bensgar92.github.io/Password-Generator/" target="_blank"><img className="card-img-top" src={image1} alt="Card image cap"/></a>
+                            <div className="card-body text-primary bg-dark rgba-black-light p-2">Password Generator</div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
